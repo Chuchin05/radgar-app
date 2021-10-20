@@ -1,16 +1,24 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
+/* .imagen {
+  height: 20vmin;
   pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App {
+  text-align: center;
+} */
+.Carlos {
+  padding-left: 66vh;
+  /* text-align: center; */
+  height: 15vmin;
+  pointer-events: none;
+}
+/* .App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+.img {
+  text-align: center;
+  height: 40vmin;
+  pointer-events: none;
 }
 
 .App-header {
@@ -26,13 +34,13 @@
 
 .App-link {
   color: #61dafb;
-}
+} */
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
