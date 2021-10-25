@@ -1,12 +1,13 @@
 import {Alert, Button, } from "react-bootstrap"
 import { useState } from "react";
-       export const AlertDismissible =(props)=> {
+
+       export const ItemListContainer =({title})=> {
             const [show, setShow] = useState(true);
           
             return (
               <>
                 <Alert show={show} variant="success">
-                  <Alert.Heading>{props.title}</Alert.Heading>
+                  <Alert.Heading>{title}</Alert.Heading>
                   <p>
                     
                   </p>
@@ -18,7 +19,8 @@ import { useState } from "react";
                   </div>
                 </Alert>
           
-                {!show && <Button onClick={() => setShow(true)}>Tu carrito</Button>}
+                {!show && 
+                <Button onClick={() => setShow(true)}>carrito</Button>}
               </>
             );
           }

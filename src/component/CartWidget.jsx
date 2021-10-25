@@ -10,7 +10,7 @@ export const Imagen = () =>{
       <Row>
  
         <Col xs={3}   md={2}>
-            <Image className="Carlos" src="./assets/imagenes/photoroom.png" alt="carrito" border="0"/>
+            <Image className="imagenCarro" src="./assets/imagenes/photoroom.png" alt="carrito" border="0"/>
         </Col>
 
       </Row>

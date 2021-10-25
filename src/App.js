@@ -6,7 +6,7 @@ import './App.css';
 import  {Navbar}  from './component/NavBar';
 import { Titulo } from './Titulo';
 // import { Image} from "react-bootstrap"
-import {AlertDismissible} from "./component/container/ItemListContainer"
+import {ItemListContainer} from "./component/container/ItemListContainer"
 // import {Imagen} from "./component/CartWidget"
 
 //
@@ -24,14 +24,15 @@ import {AlertDismissible} from "./component/container/ItemListContainer"
   // const apellido ="Carlos"
     return(
      
-      <Titulo titulo="">
-        <AlertDismissible title ="Bienvenido al carrito de compras"/>
-          <h2>Gaosds</h2>
+      <div className="App">
+      {/* <Titulo titulo="">
+        <ItemListContainer title ="Bienvenido al carrito de compras"/>
         <Navbar/>
-         
+       </Titulo>  */}
+       <SuperForm title="form" />
+       <SuperButon />
        
-          
-       </Titulo> 
+       </div>
       
     )
 
