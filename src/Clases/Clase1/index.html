@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Curso de React</title>
+        <link rel="stylesheet" href="index.css">
+        <style>
+            .container {
+                padding: 10px !important;
+                border: 1px solid;
+            }
+            
+            div {
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="fede">Esta es la primera clase</h1>
+        <div style="color: blue;">
+            <a href="index.html">
+                <img serc="" >
+            </a>
+        </div>
+        <div id="mi_funcion" class="container"></div>
+        <nav>
+            <ul>
+                <li><a href="#">Música</a></li>
+                <li><a href="#">El artista</a></li>
+                <li><a href="#">Composiciones Audiovisuales</a></li>
+                <li><a href="#">Prensa</a></li>           
+            </ul>
+        </nav>
+        <script src="index.js"></script>
+        <script>
+            // let nombre = 'dan'
+            // const apellido = 'abramov'
+            
+
+            // function  mi_funcion(){
+            //     let nombre= 'fede'
+            //     document.getElementById('mi_funcion').innerHTML= "Ejemplo de mi funición."
+            //     console.log(nombre);
+            // }
+
+            // mi_funcion()
+
+            //  let data = ['hola', 'fede', 'el mejor']
+            //  data.forEach( (elem)=>{console.log(elem)}  )
+
+            // let condition = true
+            // let resultado = ''
+            // if (condition) {
+            //     resultado= 'verdader'
+            // } else {
+            //     resultado= 'false'                
+            // }
+            // console.log('el resultado '+ resultado);
+
+            // let condition = true
+            // console.log(`el resultado es: ${condition ? 'verdadero' : 'false'}`)
+
+
+            // const array = ['b', 'c', 'd']
+            
+            // let a='a' 
+
+
+            // const newArary = [a, ...array]// ['a',['b', 'c', 'd']]
+            // console.log(newArary)
+
+            // const id = '_fede'
+            // const obj = { 
+            //               foo: "bar", 
+            //               [ "baz" + id ]: 42 
+            //             }
+
+            // console.log(obj);
+
+            var obj1 = { 
+                a : 2,
+                b: 5,
+                c: 'juan'
+            }//
+
+            // let a = obj1.a
+            // let b = obj1.b
+            const { a: val, b, c='fede' } = obj1
+
+            
+            console.log(c);
+        </script>
+    </body>
+</html>

@@ -1,23 +1,18 @@
-import { useState } from "react";
-
-export const SuperButon =({buttonText="Soy SuperBoton desde superbuton.jsx "}) =>{
-    const [bool, setBool] = useState(false)
+export const SuperButon =({buttonText='Soy Boton'}) =>{
     
-    // let booleano = false 
     
+    //let bool=false
 
-    const MostrarEnConsola = ()=>{
-        console.log(bool);
-        // booleano = !booleano
-        setBool(!bool)
+
+    const mostrarEnConsola = ()=>{
+        console.log('bool');
+        
     }
 
-    // console.log("Antes del render");
+    // console.log('antes del render de button');
     return (
         <>
-            <button onClick={MostrarEnConsola}>{buttonText}</button>
+            <button onClick={mostrarEnConsola}>{buttonText}</button>
         </>
     )
-
-
 }

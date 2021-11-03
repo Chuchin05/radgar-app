@@ -1,3 +1,4 @@
+
 import React from "react";
 import ItemCount from "./ItemCount";
 import { Card } from "react-bootstrap";
@@ -11,10 +12,8 @@ import { CardBody, CardText, CardTitle } from "reactstrap";
               <CardBody>
                   <CardTitle> card Title </CardTitle>
                   <CardText> Some sadasdasdasdasdasdas</CardText>
-                <ItemCount stocl = {8} initial={1}/>
+                <ItemCount stock = {8} initial={1}/>
               </CardBody>
-
-
               </Card>
               // <>
               //   <Alert show={show} variant="success">
